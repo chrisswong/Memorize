@@ -15,9 +15,9 @@ struct ContentView: View {
         VStack {
             ScrollView {
                 cards
-                Spacer()
-                cardCountAdjuster
             }
+            Spacer()
+            cardCountAdjuster
         }
         .padding()
     }
